@@ -15,7 +15,7 @@ body{
 
 #font{
     background: url(../comprimidas/pexels-asad-photo-maldives-3601453.jpg);
-    padding: 120px 0;
+    padding: 180px 0;
     background-size:cover ;
     
 }
@@ -55,6 +55,7 @@ h2{
 .container-flex{
     display: flex;
     justify-content: center;
+    margin-bottom: 5em;
 }
 .container-flex-img{
     width: 30%;
@@ -98,4 +99,10 @@ img{
     background: coral;
     color: #fff;
     margin-left: 10em;
+}
+/*media query*/
+@media(max-width:480px){
+    #font{
+        margin-bottom: 7em;
+    }
 }
