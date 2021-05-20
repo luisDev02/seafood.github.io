@@ -1,6 +1,4 @@
-body{
-    
-}
+
 #lottie-player-wrapper{
     position:fixed;
     top:0;
@@ -15,7 +13,7 @@ body{
 
 #font{
     background: url(../comprimidas/pexels-asad-photo-maldives-3601453.jpg);
-    padding: 180px 0;
+    padding: 200px 0;
     background-size:cover ;
     
 }
