@@ -95,6 +95,9 @@ img{
     .container-flex{
         flex-direction: column;
     }
+    .container-flex-img p {
+        text-align: center;
+    }
     .container-flex-img {
         width: 100%;
         margin-left: 0.5em;
@@ -120,7 +123,7 @@ img{
         margin-left: 5em;
     }
     .button2{
-        padding-left: 9.5em;
+        padding-left: 8.5em;
 
     }
     
