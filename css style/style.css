@@ -102,6 +102,7 @@ img{
 @media(max-width:480px){
     #font{
         margin-bottom: 7em;
+        margin-top: -9em;
     }
 
 
@@ -109,4 +110,29 @@ img{
     .container-flex{
         flex-direction: column;
     }
+    .container-flex-img {
+        width: 100%;
+        margin-left: 0.5em;
+    }
+    .container-flex-img {
+        width: 100%;
+        margin-left: 0.5em;
+        margin-bottom: 2.5em;
+    }
+    img {
+        width: 92%;
+    }
+    .container-allother {
+        background: #fff;
+        margin-left: 0em;
+        padding: 21px 23px;
+        display: inline-block;
+    }
+    .button3 {
+        
+        padding: 17px 44px;
+      
+        margin-left: 7em;
+    }
+    
 }
