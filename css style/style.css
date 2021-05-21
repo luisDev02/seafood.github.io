@@ -1,20 +1,8 @@
-
-#lottie-player-wrapper{
-    position:fixed;
-    top:0;
-    background: #fff;
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-}
-
 #font{
     background: url(../comprimidas/pexels-asad-photo-maldives-3601453.jpg);
     padding: 200px 0;
     background-size:cover ;
+    margin-top: -4em;
     
 }
 .container{
