@@ -10,4 +10,4 @@ Swal.fire({
       popup: 'animate__animated animate__fadeOutUp'
     }
     
-  })
+  });
