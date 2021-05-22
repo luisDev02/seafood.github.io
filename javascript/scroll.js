@@ -1,3 +1,4 @@
+const scrollreveal = require("./scrollreveal");
 
 function ScrollAppear() {
     var container_allother =document.querySelector('.container-allother');
@@ -8,4 +9,13 @@ function ScrollAppear() {
         container_allother.classList.add('intro_appear');
     }
 }
-window.addEventListener('scroll',ScrollAppear);
+
+window.sr =scrollreveal();
+
+sr.reveal('.container-flex-img',{
+    duration:4000,
+    origin:'left',
+    distance:'400px'
+
+
+});

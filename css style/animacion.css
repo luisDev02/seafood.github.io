@@ -9,6 +9,8 @@
     opacity: 1;
     transform: translateY(0px);
 }
+
+
 @media(max-width:480px){
     .container-allother{
         width: 85%;
