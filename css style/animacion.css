@@ -10,10 +10,10 @@
     transform: translateY(0px);
 }
 
-.container-flex{
+.container-all{
     opacity: 0;
     transform: translateX(-20px);
-    transition: 3s all ease-in-out;
+    transition: 2s all ease-in-out;
 
 }
 .intro_appear2{
