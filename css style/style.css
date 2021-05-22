@@ -10,6 +10,9 @@
     margin: auto;
     
 }
+h1{
+    font-family: 'Dancing Script', cursive;
+}
 .contenedor::-webkit-scrollbar{
     width: 12px;
     background: rgb(139, 25, 25);
