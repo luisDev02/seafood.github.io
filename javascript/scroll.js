@@ -15,7 +15,7 @@ function ScrollAppe() {
     var screenPosition = window.innerHeight/1.3;
 
     if (introPosition<screenPosition) {
-        container_all.classList.add('intro_appear');
+        container_all.classList.add('intro_appear2');
         
     }
     
