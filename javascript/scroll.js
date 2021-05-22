@@ -7,13 +7,3 @@ function ScrollAppear() {
         container_allother.classList.add('intro_appear');
     }
 }
-
-window.sr =ScrollReveal();
-
-sr.reveal('.container-flex-img',{
-    duration:4000,
-    origin:'left',
-    distance:'400px'
-
-
-});
