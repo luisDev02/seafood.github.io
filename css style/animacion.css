@@ -10,6 +10,16 @@
     transform: translateY(0px);
 }
 
+.container-flex{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 3s all ease-in-out;
+
+}
+.intro_appear2{
+    opacity: 1;
+    transform: translateY(0px);
+}
 
 
 @media(max-width:480px){
