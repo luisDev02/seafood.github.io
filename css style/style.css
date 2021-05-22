@@ -49,7 +49,7 @@ img{
    width: 80%;
 }
 .container-flex-img p{
-    padding-left: 5em;    
+text-align: center;
     font-size: 1.5em;
 }
 .button2{
@@ -95,7 +95,7 @@ img{
         flex-direction: column;
     }
     .container-flex-img p {
-        text-align: center;
+       padding: left 5em; ;
     }
     .container-flex-img {
         width: 100%;
