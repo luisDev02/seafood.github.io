@@ -8,7 +8,7 @@ function ScrollAppear() {
     }
 }
 
-window.sr =scrollreveal();
+window.sr =ScrollReveal();
 
 sr.reveal('.container-flex-img',{
     duration:4000,
