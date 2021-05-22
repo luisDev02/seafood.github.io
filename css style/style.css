@@ -95,7 +95,7 @@ text-align: center;
         flex-direction: column;
     }
     .container-flex-img p {
-       padding: left 5em; ;
+       padding-left: 5em; ;
     }
     .container-flex-img {
         width: 100%;
