@@ -9,3 +9,14 @@ function ScrollAppear() {
 }
 window.addEventListener('scroll',ScrollAppear);
 
+
+function ScrollAppe() {
+    var container_flex =document.querySelector('.container-flex');
+    var introPosition = container_flex.getBoundingClientRect().left;
+    var screenPosition = window.innerHeight/1.3;
+    if (introPosition<screenPosition) {
+        container_flex.classList.add('intro_appear2');
+    }
+}
+window.addEventListener('scroll',ScrollAppe);
+
