@@ -1,5 +1,3 @@
-const scrollreveal = require("./scrollreveal");
-
 function ScrollAppear() {
     var container_allother =document.querySelector('.container-allother');
     var introPosition = container_allother.getBoundingClientRect().top;
