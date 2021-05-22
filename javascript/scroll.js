@@ -20,4 +20,4 @@ function ScrollAppe() {
     }
     
 }
-window.addEventListener('scroll',ScrollAppe2);
+window.addEventListener('scroll',ScrollAppe);
