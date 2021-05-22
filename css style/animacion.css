@@ -12,7 +12,7 @@
 .container-all{
     width: 30%;
     opacity: 0;
-    transform:translateX(-20px);
+    transform:translateY(-20px);
     transition: 0.5s all ease-in-out;
 
 }
