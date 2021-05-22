@@ -1,5 +1,6 @@
+
 function ScrollAppear() {
-    var container_allother =document.querySelector('.container-all');
+    var container_allother =document.querySelector('.container-allother');
     var introPosition = container_allother.getBoundingClientRect().top;
     var screenPosition = window.innerHeight/1.3;
 
