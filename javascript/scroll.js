@@ -11,7 +11,7 @@ window.addEventListener('scroll',ScrollAppear);
 
 
 function ScrollAppe() {
-    var container_flex =document.querySelector('.container-flex');
+    var container_flex =document.querySelector('.container-all');
     var introPosition = container_flex.getBoundingClientRect().left;
     var screenPosition = window.innerHeight/1.3;
     if (introPosition<screenPosition) {
