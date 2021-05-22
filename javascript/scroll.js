@@ -7,17 +7,3 @@ function ScrollAppear() {
         container_allother.classList.add('intro_appear');
     }
 }
-window.addEventListener('scroll',ScrollAppear);
-
-function ScrollAppe() {
-    var container_all =document.querySelector('.container_all');
-    var introPosition = container_all.getBoundingClientRect().top;
-    var screenPosition = window.innerHeight/1.3;
-
-    if (introPosition<screenPosition) {
-        container_all.classList.add('intro_appear2');
-        
-    }
-    
-}
-window.addEventListener('scroll',ScrollAppe);
