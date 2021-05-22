@@ -7,3 +7,5 @@ function ScrollAppear() {
         container_allother.classList.add('intro_appear');
     }
 }
+window.addEventListener('scroll',ScrollAppear);
+
