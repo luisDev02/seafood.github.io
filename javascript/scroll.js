@@ -9,7 +9,7 @@ function ScrollAppear() {
 }
 window.addEventListener('scroll',ScrollAppear);
 
-function ScrollApper2() {
+function ScrollAppe() {
     var container_all =document.querySelector('.container_all');
     var introPosition = container_all.getBoundingClientRect().bottom;
     var screenPosition = window.innerHeight/1.3;
@@ -20,4 +20,4 @@ function ScrollApper2() {
     }
     
 }
-window.addEventListener('scroll',ScrollApper2);
+window.addEventListener('scroll',ScrollAppe2);
