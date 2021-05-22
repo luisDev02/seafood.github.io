@@ -1,3 +1,16 @@
+/*scroll de la pagina*/
+::-webkit-scrollbar{
+    background:rgb(253, 253, 253);
+
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+   
+    background: #545454;
+    border-radius: 10px;
+}
+
+
 #font{
     background: url(../comprimidas/pexels-asad-photo-maldives-3601453.jpg);
     padding: 200px 0;
@@ -16,11 +29,8 @@ font-family: 'Dancing Script', cursive;
 p{
     font-family: 'Roboto', sans-serif;
 }
-.contenedor::-webkit-scrollbar{
-    width: 12px;
-    background: rgb(139, 25, 25);
+/*esto afecta a todo el scroll*/
 
-}
 .container-all{
     color: #fff;
 }
