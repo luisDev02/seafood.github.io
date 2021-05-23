@@ -38,6 +38,7 @@ p{
     font-size: 3.5em;
 }
 .second_paragraph{
+    line-height: 1.8;
     font-size: 1.5em;
 }
 .button{
@@ -65,7 +66,7 @@ img{
    width: 80%;
 }
 .container-flex-img p{
-text-align: center;
+    padding-left: 2.8em;
     font-size: 1.5em;
 }
 .button2{
